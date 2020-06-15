@@ -34,13 +34,14 @@ Le funzionalità più semplici sono quelle di ricerca di informazioni. L'impleme
 * visualizzare tutti i corsi, mostrando tutte le informazioni, compresi docente ed aula.
 
 ### Funzionalità di controllo
-Queste funzionalità sono più complesse di quelle di riceca, in quanto richiedono l'elaborazione dei dati memorizzati per verificare la coerenza del programma didattico:
+Queste funzionalità sono più complesse di quelle di ricerca, in quanto richiedono l'elaborazione dei dati memorizzati per verificare la coerenza del programma didattico:
 * verificare che il numero di posti in aula sia sufficiente per le lezioni previste.
 * verificare che non ci siano sovrapposizioni temporali tra lezioni di corsi dello stesso anno.
 
 ### Informazioni Extra
 * Il C++ eredita struct e funzioni per gestire date ed orari dal C, che si trovano nell'header file `ctime`. Chi vuole può usarli, anche se l'approccio consigliato è quello di implementare voi stessi una o più classi per gestire date ed orari.
 * la gestione delle liste di elementi può essere implementate tramite array dinamici (quindi utilizzando gli operatori new e delete) oppure mediante `std::vector`. La prima soluzione sarà premiata in termini di punteggio data la sua maggiore difficoltà. 
+* Qualsiasi aspetto non sia esplicitamente specificato nella descrizione dell'esercizio è lasciato alla libera interpretazione dello studente. Scelte più realistiche che portano a software più complesso saranno chiaramente premiata in fase di valutazione.
 
 # Dati di esempio
 ### Studenti
