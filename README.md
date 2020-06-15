@@ -2,7 +2,7 @@
 Questa repository contiene il testo dell'esame del corso "Tecniche di Programmazione Avanzata" del Dipartimento di Ingegneria Industriale, anno accademico 2019/2020.
 
 #### Comunicazione per il professore
-Inserisci qui eventuali comunicazioni per il professore, come ad esempio:
+Inserisci qui eventuali comunicazioni (brevi!) per il professore, come ad esempio:
 * Non sono riuscito a finire l'implementazione per mancanza di tempo, quindi fornisco anche il progetto nel file `progetto.pdf`
 * Mi ritiro dall'esame
 
