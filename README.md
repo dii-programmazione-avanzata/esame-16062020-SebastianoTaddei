@@ -10,17 +10,17 @@ Inserisci qui eventuali comunicazioni per il professore, come ad esempio:
 L'esercizio consiste nella progettazione e nell'implementazione di un software in C++ per la gestione di un corso di laurea. Il software deve essere scritto mediante il paradigma di programmazione ad oggetti, quindi utilizzando (ove possibile) classi, ereditarietà, incapsulamento e polimorfismo. Nessun codice di partenza è fornito. Lo studente deve occuparsi sia della progettazione, sia dell'implementazione. Se l'implementazione dovesse essere incompleta (ad esempio per mancanza di tempo) si consiglia di sottomettere anche il progetto del software, che sarà tenuto in conto nella valutazione finale.
 
 ## Dati
-Il software deve permettere la memorizzazione e l'elaborazione di dati relativa alla programmazione didattica di un corso di laurea universitario. I dati da immagazzinare devono permettere di sapere:
+Il software deve permettere la memorizzazione e l'elaborazione di dati relativa alla programmazione didattica di un corso di laurea universitario. I dati da immagazzinare sono:
 * quali corsi sono erogati ogni anno 
 * quali docenti insegnano ogni corso
 * quali studenti sono iscritti ad ogni corso
 * in quale aula, giorno, ed ora sono previste le lezioni di ogni corso
 
-Ogni studente ha un nome, un cognome, una matricola, un corso di laurea.
+Ogni studente ha un nome, un cognome, una matricola.
 Ogni docente ha un nome, un cognome, una matricola.
 Ogni corso ha un docente, una lista di studenti, una lista di lezioni, un anno (a scelta tra 1, 2 o 3).
 Ogni lezione è associata ad un corso, una data, un’ora di inizio, una durata, un’aula.
-Ogni aula ha un ID, un edificio, un piano, un numero di posti.
+Ogni aula ha un ID, un numero di posti.
 
 ## Funzionalità
 Il software deve implementare diverse funzionalità.
