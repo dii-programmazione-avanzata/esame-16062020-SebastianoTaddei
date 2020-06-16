@@ -3,8 +3,7 @@ Questa repository contiene il testo dell'esame del corso "Tecniche di Programmaz
 
 #### Comunicazione per il professore
 Inserisci qui eventuali comunicazioni (brevi!) per il professore, come ad esempio:
-* Non sono riuscito a finire l'implementazione per mancanza di tempo, quindi fornisco anche il progetto nel file `progetto.pdf`
-* Mi ritiro dall'esame
+* Non sono riuscito a finire l'implementazione completa del compito, allego il progetto di quanto fatto. Aggiungo che vari controlli sarebbero potuti essere implementati, la struct aula si è rivelata più complessa del previsto, sarebbe meglio creare una classe. Per la parte di controllo sarebbe possibile implementarli con la stessa ideologia usata, ma purtroppo avendo proseguito con la idea iniziale non ho fatto in tempo. Un approccio migliore sarebbe stato creare una classe che si sarebbe occupata di ricerca e controllo.
 
 # Descrizione dell'esercizio
 L'esercizio consiste nella progettazione e nell'implementazione di un software C++ per la gestione di un corso di laurea. Il software deve essere scritto mediante il paradigma di programmazione ad oggetti, quindi utilizzando (ove possibile) classi, ereditarietà, incapsulamento e polimorfismo (anche se in questo specifico esame potrebbe risultare difficile utilizzare il polimorfismo). Nessun codice di partenza è fornito. Lo studente deve occuparsi sia della progettazione che dell'implementazione. Si consiglia di sottomettere anche il progetto del software, soprattutto se l'implementazione dovesse essere incompleta (ad esempio per mancanza di tempo). Il progetto sarà tenuto in conto nella valutazione finale. Formati accettabili per il progetto sono formati visuali (come pdf o jpeg) o formati testuali semplici (come txt o rtf). Idealmente l'implementazione dovrebbe includere anche una serie di test per verificare il corretto funzionamento del codice scritto.

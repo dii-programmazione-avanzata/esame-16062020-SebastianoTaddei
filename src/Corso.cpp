@@ -47,6 +47,7 @@ void Corso::addLezione(Lezione &lezione) {
         lezioni = new Lezione *[lezIndex];
     }
     this->lezioni[lezIndex-1] = &lezione;
+    lezione.setCorso(nome);
 
     ++aulIndex;
     if (aule != nullptr) {

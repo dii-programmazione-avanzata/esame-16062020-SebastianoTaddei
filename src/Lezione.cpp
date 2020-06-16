@@ -6,7 +6,7 @@
 #include "../include/Lezione.h"
 
 Lezione::Lezione(Aula &aula, Data &data, const int oraInzio, const int durata):
-aula(aula), data(data), oraInizio(oraInzio), durata(durata), corso(0) { }
+aula(aula), data(data), oraInizio(oraInzio), durata(durata) { }
 
 void Aula::setCorsi(const string &corso) {
     ++corsoIndex;
@@ -23,7 +23,7 @@ void Aula::setCorsi(const string &corso) {
     this->corsiAule[corsoIndex-1] = corso;
 }
 
-void Aula::printCorsi() {
+void Aula::printCorsi() const {
     std::cout << "Aula " << ID << endl;
     for (int i = 0; i < corsoIndex; ++i) {
         std::cout << " - Corso di " << corsiAule[i] << endl;

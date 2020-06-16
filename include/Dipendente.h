@@ -14,6 +14,10 @@ protected:
     string nome;
     string cognome;
     int matricola;
+public:
+    const string &getNome() { return nome; }
+    const string &getCognome() { return cognome; }
+    const int getMatricola() { return matricola; }
 };
 
 

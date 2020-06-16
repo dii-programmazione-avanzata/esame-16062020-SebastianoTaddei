@@ -11,10 +11,6 @@
 class Studente : public Dipendente {
 public:
     Studente(const string &nome, const string &cognome, const int &matricola);
-
-    string &getNome() { return nome; }
-    string &getCognome() { return cognome;}
-    int getMatricola() { return matricola;}
 };
 
 

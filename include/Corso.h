@@ -23,19 +23,20 @@ protected:
 
 public:
     Corso(const string &nome, const int &anno, Docente &docente);
+    ~Corso() { delete [] studenti; delete [] lezioni; delete [] aule;}
 
     void addStudente(Studente &studente);
     void addLezione(Lezione &lezione);
 
-    string getNome() { return nome;}
+    string getNome() { return nome; }
     int getAnno() { return anno; }
 
     void printDocente();
     void printAule();
     void printCorso();
     Docente *getDocente() { return docente; }
-    Studente **getStudenti() { return studenti;}
-    Lezione **getLezioni() { return lezioni;}
+    Studente **getStudenti() { return studenti; }
+    Lezione **getLezioni() { return lezioni; }
 };
 
 

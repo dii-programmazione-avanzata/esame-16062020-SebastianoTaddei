@@ -6,7 +6,7 @@
 #include "../include/Docente.h"
 
 
-Docente::Docente(const string &nome, const string &cognome, const int matricola) {
+Docente::Docente(const string &nome, const string &cognome, const int &matricola) {
     this->nome      = nome;
     this->cognome   = cognome;
     this->matricola = matricola;

@@ -15,8 +15,9 @@ struct Aula {
     string *corsiAule;
     int corsoIndex;
     Aula(const string &ID, const int posti) : ID(ID), posti(posti), corsiAule(nullptr), corsoIndex(0) { }
+    ~Aula() { if (corsiAule != nullptr) delete [] corsiAule; }
     void setCorsi(const string &corso);
-    void printCorsi();
+    void printCorsi() const;
 };
 
 struct Data {
@@ -28,7 +29,7 @@ struct Data {
 
 class Lezione {
 protected:
-    double *corso;
+    string corso;
     Aula &aula;
     Data &data;
     int oraInizio;
@@ -37,10 +38,11 @@ protected:
 public:
     Lezione(Aula &aula, Data &data, const int oraInzio, const int durata);
 
-    Aula &getAula() { return aula;}
+    Aula &getAula() { return aula; }
     Data &getData() { return data; }
-    int getDurata() { return durata;}
-    int getOraInizio() { return oraInizio;}
+    int getDurata() { return durata; }
+    int getOraInizio() { return oraInizio; }
+    void setCorso(const string &corso) {this->corso = corso;}
 };
 
 

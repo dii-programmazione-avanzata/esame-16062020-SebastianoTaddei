@@ -14,13 +14,11 @@ protected:
     int corIndex;
 
 public:
-    Docente(const string &nome, const string &cognome, const int matricola);
+    Docente(const string &nome, const string &cognome, const int &matricola);
+    ~Docente() { if (corsi != nullptr) delete [] corsi;}
 
-    string &getNome() { return nome; }
-    string &getCognome() { return cognome;}
-    int getMatricola() { return matricola;}
     void setCorsi(const string &corso);
-    string *getCorsi() { return corsi;}
+    string *getCorsi() { return corsi; }
     void printCorsi();
 };
 
