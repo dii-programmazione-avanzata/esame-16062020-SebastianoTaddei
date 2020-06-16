@@ -1,0 +1,14 @@
+//
+// Created by Sebastiano Taddei on 16/06/2020.
+//
+
+#ifndef ESAME_16062020_SEBASTIANOTADDEI_LAUREA_H
+#define ESAME_16062020_SEBASTIANOTADDEI_LAUREA_H
+
+
+class Laurea {
+
+};
+
+
+#endif //ESAME_16062020_SEBASTIANOTADDEI_LAUREA_H
